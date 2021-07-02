@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap");
+
+body {
+  text-align: center;
+  background-color: #e7f7b0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23e3b23b' fill-opacity='0.53' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 10px;
+}
+
+.text {
+  font-family: "Oleo Script", cursive;
+  font-size: 4rem;
+  text-align: initial;
+}
+
+.text div span {
+  text-decoration: underline red;
+}
+
+.container {
+  margin-top: 10%;
+}
