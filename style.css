@@ -28,3 +28,45 @@ h1 {
 .container {
   margin-top: 10%;
 }
+
+svg {
+  background: transparent;
+}
+
+svg text {
+  font-family: "Oleo Script", cursive;
+
+  font-size: 4rem;
+  stroke-width: 3px;
+  fill: transparent;
+  stroke: #070707;
+  letter-spacing: 2px;
+
+  animation: effect 5s infinite alternate;
+}
+
+@keyframes effect {
+  0% {
+    stroke-dasharray: 0 30%;
+    fill: orangered;
+  }
+  50% {
+    fill: rgb(63, 185, 233);
+    /* background: blue; */
+    text-decoration: underline;
+  }
+  100% {
+    stroke-dasharray: 10% 0;
+    stroke-dashoffset: 20%;
+    fill: rgb(34, 243, 7);
+    text-decoration: none;
+  }
+}
+
+h1 {
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  transition-delay: 0s;
+  /* transition-duration: ; */
+}
